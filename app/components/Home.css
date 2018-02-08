@@ -1,5 +1,12 @@
+@font-face {
+  font-family: Foo;
+  src: url('../Akkmo.ttf') format('truetype');;
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
-  font-family: "Akkmo.ttf"
+  font-family: 'Foo' !important;
 }
 
 .container {
